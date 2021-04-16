@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  /* since column, align-items aligns horizontally and justify aligns vertically, for them to align vertically we must add a height */
+  overflow: hidden;
+  /* this hides scroll bars by default */
+  background-color: #f6f7fb;
+}
